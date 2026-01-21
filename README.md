@@ -9,7 +9,7 @@ meaningful**, with clear documentation and reproducible experiments.
 
 ---
 
-## ✨ Project Vision
+## Project Vision
 
 We model a stylized economy where households and firms face:
 
@@ -22,7 +22,7 @@ The goal is not a single “answer,” but a **transparent computational laborat
 
 ---
 
-## 🔍 Model Summary
+## Model Summary
 
 **Agents**
 - **Households**: supply labor, consume, adapt to climate risk, invest in green tech.
@@ -40,7 +40,7 @@ The goal is not a single “answer,” but a **transparent computational laborat
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -62,7 +62,7 @@ The goal is not a single “answer,” but a **transparent computational laborat
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 ```bash
 python -m venv .venv
@@ -76,7 +76,7 @@ plot of system-level outcomes.
 
 ---
 
-## ⚙️ Configuration & Reproducibility
+## Configuration & Reproducibility
 
 The CLI exposes all model and policy parameters so that every run is
 reproducible and auditable. Use `--output` to set a dedicated results folder; a
@@ -96,7 +96,7 @@ python -m abm_ace.run \
 
 ---
 
-## 🧠 Research Questions
+## Research Questions
 
 - Under what conditions do adaptation subsidies reduce inequality *and* emissions?
 - Does social influence accelerate green adoption or reinforce inequality?
@@ -104,7 +104,7 @@ python -m abm_ace.run \
 
 ---
 
-## ✅ Accountability & Transparency
+## Accountability & Transparency
 
 This project prioritizes:
 
@@ -115,19 +115,19 @@ This project prioritizes:
 
 ---
 
-## 📌 Next Steps
+## Next Steps
 
 See [TODO.md](TODO.md) for structured research and engineering tasks.
 
 ---
 
-## 📜 License
+## License
 
 MIT (see [LICENSE](LICENSE)).
 
 ---
 
-## 📣 Contributing & Community
+## Contributing & Community
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) and
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before participating.
