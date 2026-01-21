@@ -1,0 +1,22 @@
+[project]
+name = "abm-ace"
+version = "0.1.0"
+description = "Agent-based + agent-computational economics simulation for resilience and inequality."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "ABM-ACE Contributors" }]
+dependencies = ["numpy>=1.24"]
+
+[project.scripts]
+abm-ace = "abm_ace.cli:main"
+
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
